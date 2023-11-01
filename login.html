@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Venda de Softwares para Jogos</title>
+    <link rel="stylesheet" href="styleL.css">
+    <script src="scriptL.js"></script>
+</head>
+<body>
+    <div class="login-container">
+        <div class="login-header">
+            <h3>Bem-vindo a central HUBCODE</h3>
+            <h2>Login</h2>
+        </div>
+        <form class="login-form">
+            <label for="username">Email:</label>
+            <input type="text" id="username" name="username" placeholder="Digite seu usuário">
+
+            <label for="password">Senha:</label>
+            <input type="password" id="password" name="password" placeholder="Digite sua senha">
+
+            <input type="submit" value="Entrar">
+            <div class="register-button-container">
+                <label for="registre">Não possui uma conta? Registre-se <a href="register.html">AQUI</a>!</label>
+            </div>
+        </form>
+    </div>
+</body>
+<script type="module">
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/10.5.2/firebase-app.js";
+
+    const firebaseConfig = {
+      apiKey: "AIzaSyA16E0P3GHjXYfmaHjVk6_TAt2HEoCbPnk",
+      authDomain: "hubcodes-20da5.firebaseapp.com",
+      projectId: "hubcodes-20da5",
+      storageBucket: "hubcodes-20da5.appspot.com",
+      messagingSenderId: "576764344662",
+      appId: "1:576764344662:web:d22e947b0e680a31b63ef7"
+    };
+
+    const app = initializeApp(firebaseConfig);
+    
+  </script>
+</html>

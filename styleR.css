@@ -1,0 +1,86 @@
+body {
+    background-color: #000;
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+       background-image: url(https://4kwallpapers.com/images/wallpapers/anonymous-hacker-data-breach-5k-1366x768-7.jpg); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+}
+
+.login-container {
+    background-color: #000;
+    color: #ff5e00;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px #e75602;
+    width: 100%;
+    max-width: 400px;
+}
+
+.login-header {
+    text-align: center;
+    font-size: 24px;
+}
+
+.login-form {
+    margin: 20px 0;
+}
+
+.login-form label,
+.login-form input {
+    display: block;
+    width: 98%;
+    margin: 10px 0;
+    font-size: 16px;
+}
+
+.login-form input[type="text"],
+.login-form input[type="password"] {
+    padding: 10px;
+    background-color: #000;
+    border: 1px solid #ff5e00;
+    color: #ff5e00;
+}
+
+.login-form input[type="submit"] {
+    background-color: #6b1414;
+    color: #FFF;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.login-form input[type="submit"]:hover {
+    background-color: rgb(179, 6, 6);
+}
+
+.register-button-container {
+    text-align: center;
+}
+
+button {
+    background-color: #6b1414;
+    color: #FFF;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: rgb(179, 6, 6);
+}
+
+@media (max-width: 600px) {
+    .login-container {
+        margin: 0 10px;
+    }
+}
